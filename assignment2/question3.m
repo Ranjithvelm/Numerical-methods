@@ -18,7 +18,7 @@ Bnimat=[0,1,10];
 %loop to change Bni value
 for i=1:3 
 Bni=Bnimat(1,i);
-for j=1:n
+for j=1:m
 K=Kmat1(1,j);
 
 %calling the newton.m function
